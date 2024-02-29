@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:padding="2dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -14,10 +16,12 @@
         <TextView
             android:id="@+id/name"
             android:layout_width="match_parent"
+            tools:text="I love life"
             android:layout_height="wrap_content"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
+        android:padding="2dp"
         android:layout_height="wrap_content">
         <TextView
             android:layout_width="wrap_content"
@@ -26,10 +30,12 @@
         <TextView
             android:id="@+id/isbn"
             android:layout_width="match_parent"
+            tools:text="   isbn"
             android:layout_height="wrap_content"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
+        android:padding="2dp"
         android:layout_height="wrap_content">
         <TextView
             android:layout_width="wrap_content"
@@ -38,10 +44,12 @@
         <TextView
             android:id="@+id/author"
             android:layout_width="match_parent"
+            tools:text=" baoYun"
             android:layout_height="wrap_content"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
+        android:padding="2dp"
         android:layout_height="wrap_content">
         <TextView
             android:layout_width="wrap_content"
@@ -49,7 +57,12 @@
             android:text="year:"/>
         <TextView
             android:id="@+id/year"
+            tools:text=" 1996"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"/>
 </LinearLayout>

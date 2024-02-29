@@ -125,7 +125,9 @@
         android:layout_height="match_parent"
         android:layout_marginTop="10dp"
         android:scrollbars="vertical"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:itemCount="3"
+        tools:listitem="@layout/item_rv"/>
 
 
 </LinearLayout>
